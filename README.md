@@ -9,3 +9,21 @@ Given a set of demographic and socioeconomic features from the U.S. Census datas
 Education is a key determinant of income, job opportunities, and access to social services. A predictive model like this can help nonprofits and researchers identify communities in need
 and better aim their efforts. 
 
+## ⚙️ Methods and Approach
+- Cleaned and preprocessed Census data (handled missing values and irrelevant features).  
+- One-hot encoded categorical features and defined a binary target (`education_binary`).  
+- Trained and tuned a **Random Forest Classifier** using `GridSearchCV` for hyperparameter optimization.  
+- Evaluated performance using accuracy and confusion matrices.  
+
+**Result:** Achieved ~80% accuracy after tuning hyperparameters.
+
+---
+
+## 🛠️ Tech Stack
+- Python (pandas, numpy, matplotlib, seaborn)  
+- scikit-learn (RandomForestClassifier, GridSearchCV)  
+- Jupyter Notebook  
+
+---
+
+## 📈 Sample Output
