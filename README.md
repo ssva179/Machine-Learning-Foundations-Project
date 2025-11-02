@@ -24,6 +24,4 @@ and better aim their efforts.
 - scikit-learn (RandomForestClassifier, GridSearchCV)  
 - Jupyter Notebook  
 
----
 
-## 📈 Sample Output
